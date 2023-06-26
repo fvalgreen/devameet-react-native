@@ -1,8 +1,11 @@
-import Login from "./src/views/Login"
+import Routes from "./src/routes";
+import {NavigationContainer} from '@react-navigation/native'
 
 const App = () => {
   return(
-    <Login />
+    <NavigationContainer>
+      <Routes />
+    </NavigationContainer>
   )
 }
 
