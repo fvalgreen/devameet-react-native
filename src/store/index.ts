@@ -7,7 +7,7 @@ import ReduxThunk from 'redux-thunk';
 const persistConfig = {
   key: 'devameet',
   storage: AsyncStorage,
-  whiteList: ['auth', 'message'],
+  whiteList: ['auth', 'message', 'user'],
 };
 
 const persistedReducer = persistReducer(persistConfig, Reducers);
